@@ -1,0 +1,156 @@
+@import url('hhttps://fonts.googleapis.com/css?family=Advent Pro');
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Annie Use Your Telescope');
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(182, 35, 35);
+    padding: 6px 8px;
+    font-family: 'Advent Pro';
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#logo{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+}
+
+#navbar li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px 11px;
+}
+
+#navbar li a:hover{
+    color: rgb(9, 9, 9);
+}
+#introSection{
+    padding-bottom: 54px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat center url("/static/bjg.jpg");
+    height: 600px;
+    background-color: aqua;
+    font-family: 'Allura';
+    font-size: 49px;
+}
+
+#introSection div.small{
+    font-size: 35px;
+    padding: 5px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(241, 81, 27);
+}
+
+#missionsection{
+    height: 350px;
+    margin: auto;
+    width: 79%;
+    display: block;
+    
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 219px;
+    width: 29%;
+    margin: 20px 25px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0px 15px;
+    margin-top: 12px;
+
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height:100px;
+    padding: 0 12px;
+    margin: 5px 12px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0px 10px;
+}
+
+.card-content p{
+    font-size: 24px;
+}
+
+#missionsection h2{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Annie Use Your Telescope';
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Annie Use Your Telescope';
+}
+#sponsors{
+    height: 262px;
+    max-width: 507px;
+    margin: auto;
+    margin: auto;
+}
+
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    background-color: rgb(10, 10, 10);
+    font-family: "Sofia", sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
